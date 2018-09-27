@@ -5,12 +5,15 @@
   "author": "Andrew Ben",
   "description": "Small module to parse email address to user name and domain parts",
   "scripts": {
-    "test": "mocha test"
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {},
   "devDependencies": {
     "assert": "^1.4.1",
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
   }
 }
