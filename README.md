@@ -2,5 +2,7 @@
 
 [![Build Status](https://travis-ci.org/iriand/node-email-address-parser.svg?branch=master)](https://travis-ci.org/iriand/node-email-address-parser)
 [![Coverage Status](https://coveralls.io/repos/github/iriand/node-email-address-parser/badge.svg?branch=master)](https://coveralls.io/github/iriand/node-email-address-parser?branch=master)
-![Libraries.io for GitHub](https://img.shields.io/librariesio/github/iriand/node-email-address-parser.svg?style=plastic)
+![David](https://david-dm.org/iriand/node-email-address-parser.svg)
+![David](https://img.shields.io/david/dev/iriand/node-email-address-parser.svg)
+
 
