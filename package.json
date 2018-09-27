@@ -1,0 +1,16 @@
+{
+  "name": "email-address-parser",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Andrew Ben",
+  "description": "Small module to parse email address to user name and domain parts",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
