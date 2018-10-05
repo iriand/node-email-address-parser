@@ -1,6 +1,6 @@
 {
   "name": "email-address-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small module to parse email address to user name and domain parts",
   "license": "MIT",
   "homepage": "https://github.com/iriand/node-email-address-parser",
