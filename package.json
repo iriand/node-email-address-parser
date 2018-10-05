@@ -1,10 +1,28 @@
 {
   "name": "email-address-parser",
   "version": "0.1.0",
-  "private": true,
-  "author": "Andrew Ben",
   "description": "Small module to parse email address to user name and domain parts",
   "license": "MIT",
+  "homepage": "https://github.com/iriand/node-email-address-parser",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "scope": "@bigben"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:iriand/node-email-address-parser.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": {
+    "name": "Andrew Ben",
+    "email": "andrew.p.ben@gmail.com",
+    "url": "http://dooseek.blogspot.co.il/"
+  },
+  "bugs": {
+    "url": "https://github.com/iriand/node-email-address-parser/issues"
+  },
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
