@@ -13,6 +13,8 @@
     "url": "git+ssh://git@github.com:iriand/node-email-address-parser.git"
   },
   "keywords": [
+    "email",
+    "parser",
     "utils"
   ],
   "author": {
